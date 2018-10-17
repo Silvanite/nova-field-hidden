@@ -1,0 +1,33 @@
+{
+    "name": "silvanite/nova-field-hidden",
+    "description": "An exhanced replacement Place field type to include additional latitude and longitude",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "place",
+        "address",
+        "algolia"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Silvanite\\NovaFieldHidden\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Silvanite\\NovaFieldHidden\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
